@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NameGenerator</string>
+
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+
+
+    <string name="api_get_all_url">https://babynamegenerator.free.beeceptor.com/all</string>
+</resources>

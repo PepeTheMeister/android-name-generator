@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "587954413712",
+    "firebase_url": "https://namegenerator-b8e73-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "namegenerator-b8e73",
+    "storage_bucket": "namegenerator-b8e73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587954413712:android:15a022bb8591fb73db7815",
+        "android_client_info": {
+          "package_name": "com.example.namegenerator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXW1WW_BIxrfhFFkXkyvF7alFpPu2sTS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
