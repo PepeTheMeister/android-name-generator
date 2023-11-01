@@ -13,7 +13,7 @@ class NetworkRequest(context : Context) {
 
     private val executor: Executor = Executors.newSingleThreadExecutor()
 
-    private fun makeRequestBuilder(url : String, method : String, callback : UrlRequest.Callback): UrlRequest.Builder? {
+    private fun makeRequestBuilder(url : String, method : String, callback : UrlRequest.Callback): UrlRequest.Builder {
 
         val requestBuilder = cronetEngine.newUrlRequestBuilder(url, callback, executor)
         requestBuilder.setHttpMethod(method)
@@ -23,7 +23,7 @@ class NetworkRequest(context : Context) {
 
     fun getRequest(url : String, callback : UrlRequest.Callback){
         val requestBuilder = makeRequestBuilder(url, "GET", callback)
-        val request = requestBuilder?.build()
+        val request = requestBuilder.build()
         request?.start()
 
     }
